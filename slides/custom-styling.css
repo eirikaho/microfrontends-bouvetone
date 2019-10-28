@@ -1,0 +1,27 @@
+.present h2 {
+    text-transform: none;
+}
+
+.presenter {
+    bottom: 2rem;
+    color: #3c555d;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+    left: 45%;
+    position: absolute;
+    z-index: 20;
+}
+
+.language-javascript {
+    font-size: 60%;
+}
+
+.language-typescript {
+    font-size: 60%;
+}
+
+.thumbnail {
+    height: 400px;
+    width: 400px;
+}
