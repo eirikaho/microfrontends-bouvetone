@@ -82,20 +82,8 @@ class App extends Component {
         );
     }
 }
-App.propTypes = {
-    counter: PropTypes.number,
-    dispatch: PropTypes.func.isRequired,
-};
-App.defaultProps = {
-    counter: 0,
-};
-const mapStateToProps = state => {
-    const { counter } = state;
-    return {
-        counter: counter.counter,
-    };
-};
-export default connect(mapStateToProps)(App);
+
+export default App;
 ```
 
 Note:

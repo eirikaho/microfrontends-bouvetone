@@ -1,7 +1,5 @@
 # Web Components?
 
-Sånn vi trekker inn microfrontends
-
 Gjort mulig med følgende W3C-standarder:
 1. The Custom Elements specification
 2. The shadow DOM specification
@@ -9,6 +7,8 @@ Gjort mulig med følgende W3C-standarder:
 4. The ES Module specification
 
 Note:
+Sånn vi trekker inn microfrontends
+
 https://www.webcomponents.org/specs
 1. Custom tags
 2. Adskilte deler med egne DOMs
