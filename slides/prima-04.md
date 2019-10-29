@@ -6,4 +6,5 @@
 - Plattform / DevOps inn i teamene
 - Fritt valg av teknologi
 
-Note: Smdig som bare rakkern
+Note: Moderne tider med moderne ideer  
+Smdig som bare rakkern
