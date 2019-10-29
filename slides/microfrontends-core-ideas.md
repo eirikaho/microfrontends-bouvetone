@@ -1,4 +1,4 @@
-# microfrontends
+# micro frontends
 - Vær agnostisk i forhold til teknologi
 - Isoler teamets kode
 - Etabler team-prefixer
