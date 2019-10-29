@@ -1,1 +1,1 @@
-# Microfrontend-arkitektur
+Note: Ligner litt på microservies, men tatt "all the way"

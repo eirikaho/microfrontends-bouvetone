@@ -49,3 +49,5 @@
     }
 </script>
 ```
+
+Note: style scoped setter shaddow dom styling

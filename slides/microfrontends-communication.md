@@ -21,4 +21,7 @@ export default {
 ```
 
 Note:
-new CustomEvent(id, payload)
+new CustomEvent(id, payload)  
+Gjelder stort sett dersom w-c skal hente data fra backend eller lignende  
+NB: Kan bruke props til nød, jeg kommer tilbake til dette
+

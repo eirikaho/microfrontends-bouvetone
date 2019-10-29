@@ -25,3 +25,5 @@ export class AppModule {
   }
 }
 ```
+
+Note: Finnes en fin guide for angluar w-c
