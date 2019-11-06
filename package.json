@@ -8,16 +8,28 @@
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve",
-    "build": "grunt"
+    "build": "grunt",
+    "example:install:all": "npm run example:install:ramme && npm run example:install:angular && npm run example:install:react && npm run example:install:vanilla-js && npm run example:install:vue",
+    "example:install:ramme": "cd example/ramme && npm install",
+    "example:install:angular": "cd example/wc-angular && npm install",
+    "example:install:react": "cd example/wc-react && npm install",
+    "example:install:vanilla-js": "cd example/wc-vanilla-js && npm install",
+    "example:install:vue": "cd example/wc-vue && npm install",
+    "example:build:all": "npm run example:build:angular && npm run example:build:react && npm run example:build:vue",
+    "example:build:angular": "cd example/wc-angular && npm run build",
+    "example:build:react": "cd example/wc-react && npm run build",
+    "example:build:vue": "cd example/wc-vue && npm run build",
+    "example:start:all": "run-p example:start:ramme example:start:angular example:start:react example:start:vanilla-js example:start:vue",
+    "example:start:ramme": "cd example/ramme && npm start",
+    "example:start:angular": "cd example/wc-angular && npm start",
+    "example:start:react": "cd example/wc-react && npm start",
+    "example:start:vanilla-js": "cd example/wc-vanilla-js && npm start",
+    "example:start:vue": "cd example/wc-vue && npm start"
   },
   "author": {
     "name": "Hakim El Hattab",
     "email": "hakim.elhattab@gmail.com",
     "web": "http://hakim.se"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
   },
   "engines": {
     "node": ">=9.0.0"
@@ -38,6 +50,7 @@
     "load-grunt-tasks": "^5.1.0",
     "mustache": "^3.1.0",
     "node-sass": "^4.13.0",
+    "npm-run-all": "^4.1.5",
     "socket.io": "^2.3.0"
   },
   "license": "MIT"

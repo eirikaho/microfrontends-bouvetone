@@ -1,0 +1,4 @@
+package.json
+build/
+node_modules/
+spk_deployment/
